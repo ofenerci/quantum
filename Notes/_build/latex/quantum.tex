@@ -289,6 +289,30 @@ Energy levels: :math:{}` E\_\{n\} = -left(frac\{Z\textasciicircum{}2 mu e\textas
 Ground state of hydrogen atom $\psi_{100}(r)=\frac{1}{\sqrt{\pi}}\frac{1}{a^{3/2}} e^{-Z r/a}$.
 
 
+\section{Approximation Methods}
+\label{approx::doc}\label{approx:approximation-methods}
+
+\subsection{Variational Method}
+\label{approx:variational-method}
+Why don't we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrodinger equation.
+
+Suppose we have a functional form
+\begin{gather}
+\begin{split}E(\psi^*, \psi, \lambda) = \int dx \psi^* H \psi - \lambda \left( \int dx \psi^* \psi - 1 \right)\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+The reason we have this Lagrange multiplier method is that the wave function should be normalized and this multiplier provides the degree of freedom. We would only get a wrong result if we don't include this DoF.
+
+Variation of $\psi^*$,
+\begin{gather}
+\begin{split}\delta E = \int dx \delta \psi^* H \psi - \int dx \delta \psi^* \psi = 0\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+Now what?
+\begin{gather}
+\begin{split}H \psi - \lambda \psi = 0\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+Not helpful.
+
+
 \bigskip\hrule{}\bigskip
 
 
@@ -304,6 +328,8 @@ Ground state of hydrogen atom $\psi_{100}(r)=\frac{1}{\sqrt{\pi}}\frac{1}{a^{3/2
 
 
 This open source project is hosted on GitHub: \href{https://github.com/emptymalei/quantum}{quantum} .
+
+\href{https://raw.github.com/emptymalei/quantum/master/Notes/\_build/latex/quantum.pdf}{Latest PDF here}.
 
 
 

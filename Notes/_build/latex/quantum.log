@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  27 JAN 2014 14:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  27 JAN 2014 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -957,52 +957,55 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 
 ]
 Chapter 2.
-<cc_byncsa.png, id=64, 141.328pt x 25.696pt>
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 295.
+[5] <cc_byncsa.png, id=85, 141.328pt x 25.696pt>
 File: cc_byncsa.png Graphic file (type png)
  <use cc_byncsa.png>
-Package pdftex.def Info: cc_byncsa.png used on input line 300.
+Package pdftex.def Info: cc_byncsa.png used on input line 324.
 (pdftex.def)             Requested size: 141.32764pt x 25.69592pt.
 File: cc_byncsa.png Graphic file (type png)
 
 <use cc_byncsa.png>
-Package pdftex.def Info: cc_byncsa.png used on input line 300.
+Package pdftex.def Info: cc_byncsa.png used on input line 324.
 (pdftex.def)             Requested size: 141.32764pt x 25.69592pt.
  (./quantum.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
- [5 <./cc_byncsa.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+ [6 <./cc_byncsa.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
  (./quantum.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `quantum.out' has not changed.
-(rerunfilecheck)             Checksum: BF2B723B9135AC61F57CA307965C7BCA;156.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+(rerunfilecheck)             Checksum: 14369D679E8D468B38F9AFE7F0F4FEEB;223.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
- 9216 strings out of 493315
- 128195 string characters out of 6137904
- 222921 words of memory out of 5000000
- 12395 multiletter control sequences out of 15000+600000
- 51279 words of font info for 61 fonts, out of 8000000 for 9000
+ 9235 strings out of 493315
+ 128486 string characters out of 6137904
+ 225069 words of memory out of 5000000
+ 12408 multiletter control sequences out of 15000+600000
+ 55745 words of font info for 64 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 36i,11n,45p,488b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,45p,488b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
-times/utmr8a.pfb>
-Output written on quantum.pdf (9 pages, 117597 bytes).
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/f
+onts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb>
+Output written on quantum.pdf (10 pages, 131783 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
