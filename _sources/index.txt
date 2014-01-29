@@ -19,7 +19,7 @@ Table of Contents
 .. toctree::
     :maxdepth: 3
 
-    collection.rst
+    vocabulary.rst
     approx.rst
 
 
