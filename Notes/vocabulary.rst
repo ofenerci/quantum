@@ -1,5 +1,7 @@
-Collections
+Vocabulary
 ============
+
+Vocabulary of physics, the fountain of research ideas.
 
 0. Fine Structure Constant
 

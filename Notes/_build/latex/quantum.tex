@@ -263,8 +263,10 @@ Some notes continued from the full theoretical physics notes are \href{http://co
 \chapter{Table of Contents}
 \label{index:table-of-contents}
 
-\section{Collections}
-\label{collection:collections}\label{collection::doc}\begin{enumerate}
+\section{Vocabulary}
+\label{vocabulary::doc}\label{vocabulary:vocabulary}
+Vocabulary of physics, the fountain of research ideas.
+\begin{enumerate}
 \setcounter{enumi}{-1}
 \item {} 
 Fine Structure Constant
@@ -294,6 +296,30 @@ Ground state of hydrogen atom $\psi_{100}(r)=\frac{1}{\sqrt{\pi}}\frac{1}{a^{3/2
 
 \subsection{Variational Method}
 \label{approx:variational-method}
+
+\subsubsection{Trial functions}
+\label{approx:trial-functions}\begin{enumerate}
+\item {} 
+$\psi(x) = \cos\alpha x$, for $|\alpha x|<\pi/2$, otherwise 0.
+
+\item {} 
+$\psi(x) = \alpha^2 - x^2$, for $|x|<\alpha$, otherwise 0.
+
+\item {} 
+$\psi(x) = C \exp(-\alpha x^2/2)$.
+
+\item {} 
+$\psi(x) = C(\alpha - |x|)$, for $|x|<\alpha$, otherwise 0.
+
+\item {} 
+$\psi(x) = C\sin\alpha x$, for $|\alpha x|<\pi$, otherwise 0.
+
+\end{enumerate}
+
+
+\bigskip\hrule{}\bigskip
+
+
 Why don't we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrodinger equation.
 
 Suppose we have a functional form

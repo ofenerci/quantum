@@ -5,6 +5,21 @@ Approximation Methods
 Variational Method
 -------------------
 
+Trial functions
+~~~~~~~~~~~~~~~~~
+
+
+1. :math:`\psi(x) = \cos\alpha x`, for :math:`|\alpha x|<\pi/2`, otherwise 0.
+2. :math:`\psi(x) = \alpha^2 - x^2`, for :math:`|x|<\alpha`, otherwise 0.
+3. :math:`\psi(x) = C \exp(-\alpha x^2/2)`.
+4. :math:`\psi(x) = C(\alpha - |x|)`, for :math:`|x|<\alpha`, otherwise 0.
+5. :math:`\psi(x) = C\sin\alpha x`, for :math:`|\alpha x|<\pi`, otherwise 0. 
+
+
+
+~~~~~~~~~~~~~~~~~
+
+
 Why don't we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrodinger equation.
 
 Suppose we have a functional form

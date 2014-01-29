@@ -27,7 +27,7 @@
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="_static/theme_extras.js"></script>
     <link rel="top" title="Quantum Notes" href="index.html" />
-    <link rel="prev" title="Collections" href="collection.html" />
+    <link rel="prev" title="Vocabulary" href="vocabulary.html" />
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -52,7 +52,7 @@
       <div class="topnav">
       
         <p>
-        «&#160;&#160;<a href="collection.html">Collections</a>
+        «&#160;&#160;<a href="vocabulary.html">Vocabulary</a>
         &#160;&#160;::&#160;&#160;
         <a class="uplink" href="index.html">Contents</a>
         </p>
@@ -65,6 +65,16 @@
 <h1>Approximation Methods<a class="headerlink" href="#approximation-methods" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="variational-method">
 <h2>Variational Method<a class="headerlink" href="#variational-method" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="trial-functions">
+<h3>Trial functions<a class="headerlink" href="#trial-functions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><span class="math">\(\psi(x) = \cos\alpha x\)</span>, for <span class="math">\(|\alpha x|&lt;\pi/2\)</span>, otherwise 0.</li>
+<li><span class="math">\(\psi(x) = \alpha^2 - x^2\)</span>, for <span class="math">\(|x|&lt;\alpha\)</span>, otherwise 0.</li>
+<li><span class="math">\(\psi(x) = C \exp(-\alpha x^2/2)\)</span>.</li>
+<li><span class="math">\(\psi(x) = C(\alpha - |x|)\)</span>, for <span class="math">\(|x|&lt;\alpha\)</span>, otherwise 0.</li>
+<li><span class="math">\(\psi(x) = C\sin\alpha x\)</span>, for <span class="math">\(|\alpha x|&lt;\pi\)</span>, otherwise 0.</li>
+</ol>
+<hr class="docutils" />
 <p>Why don&#8217;t we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrodinger equation.</p>
 <p>Suppose we have a functional form</p>
 <div class="math">
@@ -78,6 +88,7 @@
 \[H \psi - \lambda \psi = 0\]</div>
 <p>Not helpful.</p>
 </div>
+</div>
 <div class="section" id="variational-method-and-virial-theorem">
 <h2>Variational Method and Virial Theorem<a class="headerlink" href="#variational-method-and-virial-theorem" title="Permalink to this headline">¶</a></h2>
 <p>For a potential <span class="math">\(V(x)=b x^n\)</span>, we can prove that virial theorem is valid for ground state if we use Gaussian trial function <span class="math">\(e^{- \alpha x^2/2}\)</span>.</p>
@@ -90,7 +101,7 @@
       <div class="bottomnav">
       
         <p>
-        «&#160;&#160;<a href="collection.html">Collections</a>
+        «&#160;&#160;<a href="vocabulary.html">Vocabulary</a>
         &#160;&#160;::&#160;&#160;
         <a class="uplink" href="index.html">Contents</a>
         </p>
