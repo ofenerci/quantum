@@ -25,3 +25,11 @@ Now what?
    H \psi - \lambda \psi = 0
 
 Not helpful.
+
+
+Variational Method and Virial Theorem
+---------------------------------------
+
+For a potential :math:`V(x)=b x^n`, we can prove that virial theorem is valid for ground state if we use Gaussian trial function :math:`e^{- \alpha x^2/2}`.
+
+A MMA proof is `here <_static/mma/variational.nb>`_.
