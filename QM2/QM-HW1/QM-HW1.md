@@ -178,6 +178,6 @@ $$ Z = \frac{27}{16} \frac{m e^2 a}{\hbar^2} $$
 
 Insert this result into energy expectation value, we get
 
-$$ \epsilon_0 = - \frac{m e^2}{\hbar^2} \left( \frac{27}{16}\right)^2 $$
+$$ \epsilon_0 = - \frac{m e^4}{\hbar^2} \left( \frac{27}{16}\right)^2 $$
 
 Ground state energy should be no larger than this because the trial wave function consists of ground state and possibly higher energy level states.
