@@ -145,7 +145,7 @@
 
 
 \title{Quantum Notes}
-\date{January 29, 2014}
+\date{February 03, 2014}
 \release{1.38}
 \author{Lei Ma}
 \newcommand{\sphinxlogo}{}
@@ -344,6 +344,54 @@ Not helpful.
 For a potential $V(x)=b x^n$, we can prove that virial theorem is valid for ground state if we use Gaussian trial function $e^{- \alpha x^2/2}$.
 
 A MMA proof is here.
+
+
+\subsection{WKB}
+\label{approx:wkb}
+This is a semi-classical method. It is semi classical because we will use the classical momentum
+\begin{gather}
+\begin{split}\hbar k(x) = \sqrt{2m (E - V(x))}\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+The following points are important for this method.
+\begin{enumerate}
+\setcounter{enumi}{-1}
+\item {} 
+WKB start from a classical estimation of wave number at a certain energy $E$ which is later quantified by the Bohr-Sommerfeld quantization rule.
+
+\item {} 
+Conservation law:
+\begin{gather}
+\begin{split}\frac{\partial}{\partial t}\rho + \nabla \cdot \vec j = 0\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+where $\rho = \psi^* \psi$, $\vec j = -\frac{\hbar}{2 m i} \left( \psi \nabla \psi^* - \psi^* \nabla \psi \right)$. This can be derived from Shrodinger equation easily.
+
+\item {} 
+Phase:
+Wave function is generally $A(x)\exp(\phi(x))$. However, $\phi(x)$ should be the area of the phase function starting from some initial point. For example in WKB, $k(x) = \phi'(x)$ and $\phi(x) = \int \phi'(x')d x' = \int k(x') d x'$.
+
+Using this general wave function and conservation law we find out that $A(x) ~ \frac{1}{\sqrt{k(x)}}$. Then we can apply the two boundary conditions. However we will find two different wave functions given by two boundary conditions. Now we should connect them because $\psi(a) = \psi(b)$ exactly. By comparing the two wave functions we can find something like Bohr-Sommerfeld quantization rule.
+
+\item {} 
+Correction at bouldary:
+However, this method requires that the potential varies slowly or equivalently the wave number varies slowly. Basicly we are just using the following approximation:
+\begin{gather}
+\begin{split}A'(x) = 0, k'(x) = 0\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+For example when taking the derivative of wave function,
+\begin{gather}
+\begin{split}\psi'(x) = A'(x) e^{i\int \cdots} + A(x) k(x) e^{i\int \cdots} \approx A(x) k(x) e^{i\int \cdots}\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+where we drop the term with $A'(x)$. That is to say
+\begin{gather}
+\begin{split}|A'|\ll |A k| \Rightarrow |k'| \ll k^2\end{split}\notag\\\begin{split}\end{split}\notag
+\end{gather}
+But at boundary where $E = V$, this is obviously not valid because $k=0$. So we need to fix this problem.
+
+The solution is to use first order of the potential in a Taylor expansion. Then solve the problem exactly. Finally we connect regions that is far out from the boundary, need the boundary and between the boundary.
+
+\end{enumerate}
+
+If we can have a good boundary condition, then the energy spectrum given by WKB can be very good. Even we don't have a good boundary condtion, the excited states given by this method are always close to the exact ones.
 
 
 \bigskip\hrule{}\bigskip

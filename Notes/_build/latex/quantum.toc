@@ -6,3 +6,4 @@
 \contentsline {subsection}{\numberline {2.2.1}Variational Method}{5}{subsection.2.2.1}
 \contentsline {subsubsection}{Trial functions}{5}{subsubsection*.3}
 \contentsline {subsection}{\numberline {2.2.2}Variational Method and Virial Theorem}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}WKB}{6}{subsection.2.2.3}

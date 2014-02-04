@@ -94,6 +94,40 @@
 <p>For a potential <span class="math">\(V(x)=b x^n\)</span>, we can prove that virial theorem is valid for ground state if we use Gaussian trial function <span class="math">\(e^{- \alpha x^2/2}\)</span>.</p>
 <p>A MMA proof is <a class="reference external" href="_static/mma/variational.nb">here</a>.</p>
 </div>
+<div class="section" id="wkb">
+<h2>WKB<a class="headerlink" href="#wkb" title="Permalink to this headline">¶</a></h2>
+<p>This is a semi-classical method. It is semi classical because we will use the classical momentum</p>
+<div class="math">
+\[\hbar k(x) = \sqrt{2m (E - V(x))}\]</div>
+<p>The following points are important for this method.</p>
+<ol class="arabic" start="0">
+<li><p class="first">WKB start from a classical estimation of wave number at a certain energy <span class="math">\(E\)</span> which is later quantified by the Bohr-Sommerfeld quantization rule.</p>
+</li>
+<li><p class="first">Conservation law:</p>
+<div class="math">
+\[\frac{\partial}{\partial t}\rho + \nabla \cdot \vec j = 0\]</div>
+<p>where <span class="math">\(\rho = \psi^* \psi\)</span>, <span class="math">\(\vec j = -\frac{\hbar}{2 m i} \left( \psi \nabla \psi^* - \psi^* \nabla \psi \right)\)</span>. This can be derived from Shrodinger equation easily.</p>
+</li>
+<li><p class="first">Phase:
+Wave function is generally <span class="math">\(A(x)\exp(\phi(x))\)</span>. However, <span class="math">\(\phi(x)\)</span> should be the area of the phase function starting from some initial point. For example in WKB, <span class="math">\(k(x) = \phi'(x)\)</span> and <span class="math">\(\phi(x) = \int \phi'(x')d x' = \int k(x') d x'\)</span>.</p>
+<p>Using this general wave function and conservation law we find out that <span class="math">\(A(x) ~ \frac{1}{\sqrt{k(x)}}\)</span>. Then we can apply the two boundary conditions. However we will find two different wave functions given by two boundary conditions. Now we should connect them because <span class="math">\(\psi(a) = \psi(b)\)</span> exactly. By comparing the two wave functions we can find something like Bohr-Sommerfeld quantization rule.</p>
+</li>
+<li><p class="first">Correction at bouldary:
+However, this method requires that the potential varies slowly or equivalently the wave number varies slowly. Basicly we are just using the following approximation:</p>
+<div class="math">
+\[A'(x) = 0, k'(x) = 0\]</div>
+<p>For example when taking the derivative of wave function,</p>
+<div class="math">
+\[\psi'(x) = A'(x) e^{i\int \cdots} + A(x) k(x) e^{i\int \cdots} \approx A(x) k(x) e^{i\int \cdots}\]</div>
+<p>where we drop the term with <span class="math">\(A'(x)\)</span>. That is to say</p>
+<div class="math">
+\[|A'|\ll |A k| \Rightarrow |k'| \ll k^2\]</div>
+<p>But at boundary where <span class="math">\(E = V\)</span>, this is obviously not valid because <span class="math">\(k=0\)</span>. So we need to fix this problem.</p>
+<p>The solution is to use first order of the potential in a Taylor expansion. Then solve the problem exactly. Finally we connect regions that is far out from the boundary, need the boundary and between the boundary.</p>
+</li>
+</ol>
+<p>If we can have a good boundary condition, then the energy spectrum given by WKB can be very good. Even we don&#8217;t have a good boundary condtion, the excited states given by this method are always close to the exact ones.</p>
+</div>
 </div>
 
 
