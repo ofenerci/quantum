@@ -13,7 +13,6 @@
 \usepackage{multirow}
 
 \usepackage{dsfont}
-\usepackage{braket}
 \usepackage{slashed}
 \usepackage{yfonts}
 \usepackage{mathrsfs}
@@ -46,6 +45,11 @@
 \newcommand{\bfg}{\mbox{\boldmath $g$}}
 \newcommand{\bfc}{\mbox{\boldmath $c$}}
 \newcommand{\bfxi}{\mbox{\boldmath $\xi$}}
+
+\newcommand{\bra}[1]{\left\langle #1\right|}
+\newcommand{\ket}[1]{\left| #1\right\rangle}
+\newcommand{\braket}[2]{\langle #1 \mid #2 \rangle}
+\newcommand{\avg}[1]{\left< #1 \right>}
 
 
 %\def\back{\!\!\!\!\!\!\!\!\!\!}
@@ -145,7 +149,7 @@
 
 
 \title{Quantum Notes}
-\date{February 11, 2014}
+\date{February 12, 2014}
 \release{1.38}
 \author{Lei Ma}
 \newcommand{\sphinxlogo}{}
@@ -298,7 +302,9 @@ Ground state of hydrogen atom $\psi_{100}(r)=\frac{1}{\sqrt{\pi}}\frac{1}{a^{3/2
 \label{approx:variational-method}
 
 \subsubsection{Trial functions}
-\label{approx:trial-functions}\begin{enumerate}
+\label{approx:trial-functions}
+Some of the calculable trial functions:
+\begin{enumerate}
 \item {} 
 $\psi(x) = \cos\alpha x$, for $|\alpha x|<\pi/2$, otherwise 0.
 
@@ -317,10 +323,43 @@ $\psi(x) = C\sin\alpha x$, for $|\alpha x|<\pi$, otherwise 0.
 \end{enumerate}
 
 
-\bigskip\hrule{}\bigskip
+\subsubsection{Procedure}
+\label{approx:procedure}\begin{enumerate}
+\item {} 
+Pick a trial function.
+
+\begin{notice}{note}{Note:}
+How to pick a trial function? For ground state energy, we should pick a function that has the same property as the real ground state. This requires some understanding of the problem we are dealing with.
+
+Things to consider:
+\begin{enumerate}
+\item {} 
+The new problem is just a modification of a known solved problem. Then we can easily find out what really is different and interprete the new problem in terms of the old one.
+
+\item {} 
+If the Hamiltonian have definite parity, the ground state wave function should pick up some parity which is usually even to make it the lowest energy.
+
+\item {} 
+Continious function? A $C^\infty$ Hamiltonian can only have continious functions as solutions for a finite system.
+
+\item {} 
+Nodes deteremines the kinetic energy so check the nodes for ground state wave function.
+
+\item {} 
+Check the behivior of the wave function at different limits. In most cases, the Shrödinger equation can be reduced to something solvable at some limits.
+
+\item {} 
+\textbf{One more thing, the trial function should make the problem calculable.}
+
+\end{enumerate}
+\end{notice}
+
+\end{enumerate}
 
 
-Why don't we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrodinger equation.
+\subsubsection{Why Not General Viriational Method}
+\label{approx:why-not-general-viriational-method}
+Why don't we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrödinger equation.
 
 Suppose we have a functional form
 \begin{gather}
@@ -345,6 +384,8 @@ For a potential $V(x)=b x^n$, we can prove that virial theorem is valid for grou
 
 A MMA proof is here.
 
+Virial theorem is pretty interesting. It shares the same math with equipartition theorem.
+
 
 \subsection{WKB}
 \label{approx:wkb}
@@ -363,7 +404,7 @@ Conservation law:
 \begin{gather}
 \begin{split}\frac{\partial}{\partial t}\rho + \nabla \cdot \vec j = 0\end{split}\notag\\\begin{split}\end{split}\notag
 \end{gather}
-where $\rho = \psi^* \psi$, $\vec j = -\frac{\hbar}{2 m i} \left( \psi \nabla \psi^* - \psi^* \nabla \psi \right)$. This can be derived from Shrodinger equation easily.
+where $\rho = \psi^* \psi$, $\vec j = -\frac{\hbar}{2 m i} \left( \psi \nabla \psi^* - \psi^* \nabla \psi \right)$. This can be derived from Shrödinger equation easily.
 
 \item {} 
 Phase:

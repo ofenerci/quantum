@@ -8,6 +8,7 @@ Variational Method
 Trial functions
 ~~~~~~~~~~~~~~~~~
 
+Some of the calculable trial functions:
 
 1. :math:`\psi(x) = \cos\alpha x`, for :math:`|\alpha x|<\pi/2`, otherwise 0.
 2. :math:`\psi(x) = \alpha^2 - x^2`, for :math:`|x|<\alpha`, otherwise 0.
@@ -17,10 +18,38 @@ Trial functions
 
 
 
-~~~~~~~~~~~~~~~~~
 
 
-Why don't we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrodinger equation.
+Procedure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Pick a trial function.
+   
+   .. note::
+      How to pick a trial function? For ground state energy, we should pick a function that has the same property as the real ground state. This requires some understanding of the problem we are dealing with.
+
+      Things to consider:
+
+      a. The new problem is just a modification of a known solved problem. Then we can easily find out what really is different and interprete the new problem in terms of the old one.
+
+      b. If the Hamiltonian have definite parity, the ground state wave function should pick up some parity which is usually even to make it the lowest energy.
+      
+      c. Continious function? A :math:`C^\infty` Hamiltonian can only have continious functions as solutions for a finite system.
+
+      d. Nodes deteremines the kinetic energy so check the nodes for ground state wave function.
+
+      e. Check the behivior of the wave function at different limits. In most cases, the Shrödinger equation can be reduced to something solvable at some limits.
+
+      f. **One more thing, the trial function should make the problem calculable.**
+
+
+
+
+Why Not General Viriational Method
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Why don't we just use a most general variational method to find out the ground state? Because we will eventually come back to the time-independent Shrödinger equation.
 
 Suppose we have a functional form
 
@@ -42,12 +71,16 @@ Now what?
 Not helpful.
 
 
+
 Variational Method and Virial Theorem
 ---------------------------------------
 
 For a potential :math:`V(x)=b x^n`, we can prove that virial theorem is valid for ground state if we use Gaussian trial function :math:`e^{- \alpha x^2/2}`.
 
 A MMA proof is `here <_static/mma/variational.nb>`_.
+
+
+Virial theorem is pretty interesting. It shares the same math with equipartition theorem.
 
 
 
@@ -70,7 +103,7 @@ The following points are important for this method.
    .. math::
       \frac{\partial}{\partial t}\rho + \nabla \cdot \vec j = 0
 
-   where :math:`\rho = \psi^* \psi`, :math:`\vec j = -\frac{\hbar}{2 m i} \left( \psi \nabla \psi^* - \psi^* \nabla \psi \right)`. This can be derived from Shrodinger equation easily.
+   where :math:`\rho = \psi^* \psi`, :math:`\vec j = -\frac{\hbar}{2 m i} \left( \psi \nabla \psi^* - \psi^* \nabla \psi \right)`. This can be derived from Shrödinger equation easily.
 
 
 2. Phase:
@@ -101,4 +134,7 @@ The following points are important for this method.
 
 
 If we can have a good boundary condition, then the energy spectrum given by WKB can be very good. Even we don't have a good boundary condtion, the excited states given by this method are always close to the exact ones.
+
+
+
 

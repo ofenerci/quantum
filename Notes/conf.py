@@ -26,13 +26,12 @@ sys.path.append(os.path.abspath('exts'))
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-# extensions = ['sphinx.ext.pngmath', "math_dollar"]
+extensions = ['sphinx.ext.pngmath', "math_dollar"]
 
-extensions = ['sphinx.ext.mathjax', "math_dollar"]
+# extensions = ['sphinx.ext.mathjax', "math_dollar"]
 
 latex_preamble = r"""
 \usepackage{dsfont}
-\usepackage{braket}
 \usepackage{slashed}
 \usepackage{yfonts}
 \usepackage{mathrsfs}
@@ -65,6 +64,11 @@ latex_preamble = r"""
 \newcommand{\bfg}{\mbox{\boldmath $g$}}
 \newcommand{\bfc}{\mbox{\boldmath $c$}}
 \newcommand{\bfxi}{\mbox{\boldmath $\xi$}}
+
+\newcommand{\bra}[1]{\left\langle #1\right|}
+\newcommand{\ket}[1]{\left| #1\right\rangle}
+\newcommand{\braket}[2]{\langle #1 \mid #2 \rangle}
+\newcommand{\avg}[1]{\left< #1 \right>}
 
 
 %\def\back{\!\!\!\!\!\!\!\!\!\!}
