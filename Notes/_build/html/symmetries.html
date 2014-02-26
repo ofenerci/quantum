@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Symmetries in QM &mdash; Quantum Notes</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/modify.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.38',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Quantum Notes" href="index.html" />
+    <link rel="prev" title="Approximation Methods" href="approx.html" />
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44466929-3']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Quantum Notes</a>
+        <span class="navbar-text navbar-version pull-left"><b>1.38</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a href="index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="vocabulary.html">Vocabulary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="approx.html">Approximation Methods</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Symmetries in QM</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Symmetries in QM</a><ul>
+<li><a class="reference internal" href="#the-invariant-quantity">The Invariant Quantity</a><ul>
+<li><a class="reference internal" href="#time-translation-symmetry">Time Translation Symmetry</a></li>
+<li><a class="reference internal" href="#space-translation-symmetry">Space Translation Symmetry</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="approx.html" title="Previous Chapter: Approximation Methods"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm">&laquo; Approximation Me...</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="_sources/symmetries.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="symmetries-in-qm">
+<h1>Symmetries in QM<a class="headerlink" href="#symmetries-in-qm" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="the-invariant-quantity">
+<h2>The Invariant Quantity<a class="headerlink" href="#the-invariant-quantity" title="Permalink to this headline">¶</a></h2>
+<p>First of all I want to know what is not changed or what is the invariant quantity in a transformation.</p>
+<p>There are three kind of common transformations.</p>
+<ol class="arabic simple">
+<li>Time translation: move the system in time. In this sense time translation is just the time evolution operator or propagator.</li>
+<li>Space translation: move the system in space.</li>
+<li>Gauge transformation</li>
+</ol>
+<p>The invariance of them corresponds to:</p>
+<ol class="arabic simple">
+<li>Time translation invariance (T.T.I.) means the evolution of the system is not changing under time translations. <strong>Hamiltonian is invariant.</strong></li>
+<li>Space translation invariance (S.T.I.) means that the</li>
+</ol>
+<div class="section" id="time-translation-symmetry">
+<h3>Time Translation Symmetry<a class="headerlink" href="#time-translation-symmetry" title="Permalink to this headline">¶</a></h3>
+<p>T.T.I. is generated by Hamiltonian which can be easily understood by looking into Shcrödinger equation.</p>
+<p>The logic is to prove that Hamiltonian is time independent by using infinitesimal time translation approach. Given that Hamiltonian is time independent, we imediately know that time translation operator is just the propagator with the form</p>
+<div class="math">
+<p><img src="_images/math/5937eeda61239be5b5a65425c4eae6430d72c29b.png" alt="\hat T_{\Delta t} \equiv \hat U(\Delta t) = e^{-i \hat H \Delta t /\hbar}"/></p>
+</div><p>All other conclusions come from the fact that Hamiltonian is a constant of motion.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p>Starting from Schrödinger equation,</p>
+<div class="math">
+<p><img src="_images/math/035a2455a531f20b440561981d31f02704732bbe.png" alt="i\hbar \frac{\ket{\psi(t+\Delta t)} - \ket{\psi(t)}}{\Delta t} = H(t)\psi(t)"/></p>
+</div><p>Then we get the state after a evolution of time <img class="math" src="_images/math/a1ffc0a012620941fe660cedabff822ce7162eca.png" alt="\Delta t"/>,</p>
+<div class="math">
+<p><img src="_images/math/0bc3b106d707b81c17d8f0f6b6470a3f9b21c79c.png" alt="\ket{\psi(t+\Delta t)} = \left( \hat I - i\frac{\Delta t \hat H(t)}{\hbar} \right) \ket{\psi(t)}"/></p>
+</div><p>Time translation symmetry means the state evolution in the same time interval <img class="math" src="_images/math/a1ffc0a012620941fe660cedabff822ce7162eca.png" alt="\Delta t"/> no matter when to start the evolution. Mathematically,</p>
+<div class="math">
+<p><img src="_images/math/51daa3963e7ba9490daa157a8abf2264d3d46443.png" alt="\ket{\psi(t_1 +\Delta t)} = \left( \hat I - i\frac{\Delta t \hat H(t_1)}{\hbar} \right) \ket{\psi(t_1)}"/></p>
+</div><p>should get the same final state if we start from some other time <img class="math" src="_images/math/a40dccc3bb61d55c03b7dafe15707eeef43885ab.png" alt="t_2"/>,</p>
+<div class="math">
+<p><img src="_images/math/86b823a7c33b0b5fd7b6d5b77126cf016336816a.png" alt="\ket{\psi(t_2 +\Delta t)} = \left( \hat I - i\frac{\Delta t \hat H(t_2)}{\hbar} \right) \ket{\psi(t_2)}"/></p>
+</div><p class="last">That means the two Hamiltonian should be the same. Now we reach the conclusion that Hamiltonian is time independent.</p>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p>Ehrenfest theorem tells us that time independent Hamiltonian is a constant of motion.</p>
+<div class="last math">
+<p><img src="_images/math/f63998594462105f6ecb19bcfb6c60968640ef76.png" alt="\frac{d}{dt}\avg{H} = \frac{1}{i\hbar}\avg{[\hat H, \hat H]} + \avg{\frac{\partial}{\partial t} H } = 0"/></p>
+</div></div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p>For an isolated system, T.T.I. should always be satisfied because there is nothing more else to change the system but to leave the system with energy conserved.</p>
+<p class="last">My concern is if we don&#8217;t have an Hamiltonian for <img class="math" src="_images/math/01c27b71fd89fc33c5fe0d41f453c0727af15b5b.png" alt="T\mathrm d S"/>, we can&#8217;t actually says this because of what the second law of thermodynamics tells us.</p>
+</div>
+</div>
+<div class="section" id="space-translation-symmetry">
+<h3>Space Translation Symmetry<a class="headerlink" href="#space-translation-symmetry" title="Permalink to this headline">¶</a></h3>
+<p>S.T.I. is generated by canonical momentum. This is not so obvious as time translation. To prove this we need to understand what space translation really means.</p>
+<p>Space translation means we change the position of the system by some spatial distance <img class="math" src="_images/math/c7d457e388298246adb06c587bccd419ea67f7e8.png" alt="a"/>. In math this means a transformation from <img class="math" src="_images/math/72ee4347616aaecffcaa9580998be2662d0783a9.png" alt="\ket{x}"/> to <img class="math" src="_images/math/9f8dbf19069cb252137720dd6d22bfc9ef31ebb0.png" alt="\ket{x+a}"/> where the plus sign is by definition. We invent this space translation operator,</p>
+<div class="math">
+<p><img src="_images/math/ea33bc60bdbe51a76d56494ea8c284c5e780773e.png" alt="\hat T_a  \ket{x} = \ket{x + a} ."/></p>
+</div><p>Next we can obtain the result of space translation operator applied to state in position basis</p>
+<div class="math">
+<p><img src="_images/math/2762cdec0d06316da7b2c4981d52d52af04873b9.png" alt="\bra{x}\hat T_a \ket{\psi} = (\bra{x}\hat T_a^\dagger) \ket{\psi} = \braket{x-a}{\psi} = \psi(x-a)"/></p>
+</div><p>where we used the relation</p>
+<div class="math">
+<p><img src="_images/math/6d7af2e65491e91ec9a505d7214dabe8bb75d3f6.png" alt="(\bra{x} \hat T_a^\dagger) =  \bra{x}\hat T_a^{-1} = \bra{x} \hat T _ {-a} = \ket{x-a}"/></p>
+</div><p>which of course is because the normalization of coordinate basis tells us that space translation operator is unitary.</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, Lei Ma.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2b2.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

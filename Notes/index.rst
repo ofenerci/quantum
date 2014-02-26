@@ -21,7 +21,7 @@ Table of Contents
 
     vocabulary.rst
     approx.rst
-
+    symmetries.rst
 
 ------
 
