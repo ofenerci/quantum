@@ -4,8 +4,8 @@ Symmetries in QM
 
 
 
-The Invariant Quantity
-------------------------
+Time and Space Translation
+-----------------------------
 
 First of all I want to know what is not changed or what is the invariant quantity in a transformation.
 
@@ -187,8 +187,57 @@ Such a system has space translational invariance.
 
 
 
+Gauge Symmetry
+--------------------
+
+Global Gauge Transformation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+.. math::
+   \ket{\psi} \rightarrow e^{i g \hat I} \ket{\psi}
+
+
+All quantum states are invariant under such transformation. This is not a nonsene transformation because the two states are different in some sense if we put them in a phase space where the phase factor assigns a position for the state vector in the phase space and we can see the difference directly in this image.
+
+The invariant thing is the probability density which is obvious.
+
+.. note::
+   This is global because the phase factor doesn't depend on position and time.
+
+
+
+
+Local Gauge Transformation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+.. image:: _static/images/LocalGaugeTransformation.png
+   :alt: Local Gauge Transformation
+
+`Local Gauge Transformation Gliffy Source <_static/images/LocalGaugeTransformation.gliffy>`_
+
+
+What if we have a local phase factor: :math:`g(x,t)`?
+
+One way of implenment this phase factor is to transform the basis, for example:
+
+.. math::
+   \ket{x} \rightarrow e^{i g(x,t)/\hbar} \ket{x}
+
+By changing the basis, we can transform anything on position basis. Since the first principle of QM is Schrödinger equation, we would like to check what happens to that.
+
+It turns out that both space derivative and time derivative of the wave function changed. For both of them,
+
+.. math::
+   \frac{d}{dw} (\exp(-ig/\hbar)\phi ) = \exp(-ig/\hbar)\frac{d}{dw} \phi - i/\hbar \left(\frac{d}{dw} g\right) \phi
+
+equivalently, we can just change all the derivatives to 
+
+.. math::
+   \frac{d}{dw} \rightarrow  \exp(-ig/\hbar)\frac{d}{dw} - i/\hbar \frac{d}{dw} g
+
+where :math:`w` can be :math:`x` or :math:`t`.
 
 
 

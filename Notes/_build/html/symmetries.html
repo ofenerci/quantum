@@ -91,9 +91,14 @@
   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
   <ul class="dropdown-menu localtoc"><ul>
 <li><a class="reference internal" href="#">Symmetries in QM</a><ul>
-<li><a class="reference internal" href="#the-invariant-quantity">The Invariant Quantity</a><ul>
+<li><a class="reference internal" href="#time-and-space-translation">Time and Space Translation</a><ul>
 <li><a class="reference internal" href="#time-translation-symmetry">Time Translation Symmetry</a></li>
 <li><a class="reference internal" href="#space-translation-symmetry">Space Translation Symmetry</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#gauge-symmetry">Gauge Symmetry</a><ul>
+<li><a class="reference internal" href="#global-gauge-transformation">Global Gauge Transformation</a></li>
+<li><a class="reference internal" href="#local-gauge-transformation">Local Gauge Transformation</a></li>
 </ul>
 </li>
 </ul>
@@ -143,8 +148,8 @@
       
   <div class="section" id="symmetries-in-qm">
 <h1>Symmetries in QM<a class="headerlink" href="#symmetries-in-qm" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="the-invariant-quantity">
-<h2>The Invariant Quantity<a class="headerlink" href="#the-invariant-quantity" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="time-and-space-translation">
+<h2>Time and Space Translation<a class="headerlink" href="#time-and-space-translation" title="Permalink to this headline">¶</a></h2>
 <p>First of all I want to know what is not changed or what is the invariant quantity in a transformation.</p>
 <p>There are three kind of common transformations.</p>
 <ol class="arabic simple">
@@ -248,6 +253,37 @@
 <p class="first admonition-title">Hint</p>
 <p class="last">I once thought Hamiltonian is space/time translational invariant is not enough for the statement that the whole system is invariant under space or time translation for all observables. Of course I was wrong. Once the Hamiltonian and initial condition is given the whole system can be determined completely in principle.</p>
 </div>
+</div>
+</div>
+<div class="section" id="gauge-symmetry">
+<h2>Gauge Symmetry<a class="headerlink" href="#gauge-symmetry" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="global-gauge-transformation">
+<h3>Global Gauge Transformation<a class="headerlink" href="#global-gauge-transformation" title="Permalink to this headline">¶</a></h3>
+<div class="math">
+<p><img src="_images/math/a7e59394a482ede7b2c937f2a60035819c79fcea.png" alt="\ket{\psi} \rightarrow e^{i g \hat I} \ket{\psi}"/></p>
+</div><p>All quantum states are invariant under such transformation. This is not a nonsene transformation because the two states are different in some sense if we put them in a phase space where the phase factor assigns a position for the state vector in the phase space and we can see the difference directly in this image.</p>
+<p>The invariant thing is the probability density which is obvious.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This is global because the phase factor doesn&#8217;t depend on position and time.</p>
+</div>
+</div>
+<div class="section" id="local-gauge-transformation">
+<h3>Local Gauge Transformation<a class="headerlink" href="#local-gauge-transformation" title="Permalink to this headline">¶</a></h3>
+<img alt="Local Gauge Transformation" src="_images/LocalGaugeTransformation.png" />
+<p><a class="reference external" href="_static/images/LocalGaugeTransformation.gliffy">Local Gauge Transformation Gliffy Source</a></p>
+<p>What if we have a local phase factor: <img class="math" src="_images/math/519ea1924353fe318c55a307f2d0960e70b95b74.png" alt="g(x,t)"/>?</p>
+<p>One way of implenment this phase factor is to transform the basis, for example:</p>
+<div class="math">
+<p><img src="_images/math/52ff6b4ef42068cbf200b1c8e40d394dfcc1e194.png" alt="\ket{x} \rightarrow e^{i g(x,t)/\hbar} \ket{x}"/></p>
+</div><p>By changing the basis, we can transform anything on position basis. Since the first principle of QM is Schrödinger equation, we would like to check what happens to that.</p>
+<p>It turns out that both space derivative and time derivative of the wave function changed. For both of them,</p>
+<div class="math">
+<p><img src="_images/math/c3b192f224f7b2191a3bc9c4d2d7b1f2868c1365.png" alt="\frac{d}{dw} (\exp(-ig/\hbar)\phi ) = \exp(-ig/\hbar)\frac{d}{dw} \phi - i/\hbar \left(\frac{d}{dw} g\right) \phi"/></p>
+</div><p>equivalently, we can just change all the derivatives to</p>
+<div class="math">
+<p><img src="_images/math/8329a8fc13d30582c8411417ba586ad5de6c0328.png" alt="\frac{d}{dw} \rightarrow  \exp(-ig/\hbar)\frac{d}{dw} - i/\hbar \frac{d}{dw} g"/></p>
+</div><p>where <img class="math" src="_images/math/9ee4b825a2e36ae093ed7be5e4851ef453b34914.png" alt="w"/> can be <img class="math" src="_images/math/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" alt="x"/> or <img class="math" src="_images/math/e0d2bf360290fd61d1c1557e763f2622363b3d35.png" alt="t"/>.</p>
 </div>
 </div>
 </div>

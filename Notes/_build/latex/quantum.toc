@@ -11,6 +11,9 @@
 \contentsline {subsection}{\numberline {2.2.3}WKB}{7}{subsection.2.2.3}
 \contentsline {subsubsection}{How does it work}{7}{subsubsection*.6}
 \contentsline {section}{\numberline {2.3}Symmetries in QM}{7}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}The Invariant Quantity}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Time and Space Translation}{7}{subsection.2.3.1}
 \contentsline {subsubsection}{Time Translation Symmetry}{8}{subsubsection*.7}
 \contentsline {subsubsection}{Space Translation Symmetry}{10}{subsubsection*.8}
+\contentsline {subsection}{\numberline {2.3.2}Gauge Symmetry}{11}{subsection.2.3.2}
+\contentsline {subsubsection}{Global Gauge Transformation}{11}{subsubsection*.9}
+\contentsline {subsubsection}{Local Gauge Transformation}{12}{subsubsection*.10}
