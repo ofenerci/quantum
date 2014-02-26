@@ -13,4 +13,4 @@
 \contentsline {section}{\numberline {2.3}Symmetries in QM}{7}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}The Invariant Quantity}{7}{subsection.2.3.1}
 \contentsline {subsubsection}{Time Translation Symmetry}{8}{subsubsection*.7}
-\contentsline {subsubsection}{Space Translation Symmetry}{9}{subsubsection*.8}
+\contentsline {subsubsection}{Space Translation Symmetry}{10}{subsubsection*.8}
