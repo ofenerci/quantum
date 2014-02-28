@@ -101,6 +101,10 @@
 <li><a class="reference internal" href="#local-gauge-transformation">Local Gauge Transformation</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#parity">Parity</a><ul>
+<li><a class="reference internal" href="#logic">Logic</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -284,6 +288,74 @@
 <div class="math">
 <p><img src="_images/math/8329a8fc13d30582c8411417ba586ad5de6c0328.png" alt="\frac{d}{dw} \rightarrow  \exp(-ig/\hbar)\frac{d}{dw} - i/\hbar \frac{d}{dw} g"/></p>
 </div><p>where <img class="math" src="_images/math/9ee4b825a2e36ae093ed7be5e4851ef453b34914.png" alt="w"/> can be <img class="math" src="_images/math/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" alt="x"/> or <img class="math" src="_images/math/e0d2bf360290fd61d1c1557e763f2622363b3d35.png" alt="t"/>.</p>
+</div>
+</div>
+<div class="section" id="parity">
+<h2>Parity<a class="headerlink" href="#parity" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="logic">
+<h3>Logic<a class="headerlink" href="#logic" title="Permalink to this headline">¶</a></h3>
+<p>The only thing we need is the definition:</p>
+<div class="math">
+<p><img src="_images/math/79c9298ac4de47f53b80e19b586fd4f4d9e35ae5.png" alt="\hat \Pi \ket{\vec x} = \ket{-\vec x}"/></p>
+</div><p>Starting from that, we can derive properties.</p>
+<ol class="arabic">
+<li><p class="first">Hermition? <strong>The way to find out something is Hermition or not is to take the Hermitian conjugate of the inner product sandwiched by the operator.</strong></p>
+<p>We know</p>
+<div class="math">
+<p><img src="_images/math/6f676e49525e834e6919ffeb178b45b91f947e2d.png" alt="\bra{x}\hat \Pi \ket{x} = \delta(x+x')"/></p>
+</div><p>Take the Hermitian conjugate of the whole expression,</p>
+<div class="math">
+<p><img src="_images/math/d41a1a8cf9a4f3ab6e73bd92bf2d39b609da4ac6.png" alt="(\bra{x'}\hat \Pi \ket{x} )^\dagger = \delta(x+x')"/></p>
+</div><p>We know the LHS is <img class="math" src="_images/math/c7cdea0f2d9141e62d1eae3be9966727b9f9bb6f.png" alt="\bra{x}\hat \Pi^\dagger \ket{x'}"/>. So we have</p>
+<div class="math">
+<p><img src="_images/math/2cd248e7e2d4223092e01f5f7e82f4c3b587da22.png" alt="\bra{x}\hat \Pi^\dagger \ket{x'}  =  \bra{x}\hat \Pi \ket{x'}"/></p>
+</div><p>Then we get that parity operator is Hermitian.</p>
+</li>
+<li><p class="first">Inversion? Parity operator is Unitary.</p>
+<div class="math">
+<p><img src="_images/math/afbc5149b7afd0b5ad8d8c283a63215338f61407.png" alt="\hat \Pi \hat \Pi \ket{\pi} = \hat \Pi \pi \ket{\pi} = \pi^2\ket{\pi}"/></p>
+</div><p>By physics we know that parity twice gets back to the original state. So <img class="math" src="_images/math/c615de1f17c676611d27c9a6e1fe64c59b7bce71.png" alt="\pi^2=1"/> . Then we can find inverse parity operator. What&#8217;s important is that it&#8217;s unitary.</p>
+</li>
+<li><p class="first">Acts on states? From definition, we need to go to position basis.</p>
+<div class="math">
+<p><img src="_images/math/2f68c5d62c07cb549b63637738be2a02bc0cb4c8.png" alt="\bra{x}\hat \Pi\ket{\psi}  = \braket{-x}{\psi} ."/></p>
+</div><p>We can also find the results on momentum eigenbasis, which is</p>
+<div class="math">
+<p><img src="_images/math/528d05180c4e2e34208178ef7c4cfde5e58d85ba.png" alt="\bra{x}\hat \Pi \ket{p} = \braket{-x}{p}   ."/></p>
+</div><p>We already know mometum eigen state in postion is some kind of plane wave and it&#8217;s easily proved that <img class="math" src="_images/math/4dff9ea2e2981af16521c9e5cd8c90b42de0ab78.png" alt="\braket{-x}{p} = \braket{x}{-p}"/> .</p>
+</li>
+<li><p class="first">Commutators with any observables? Just sandwich <img class="math" src="_images/math/20e19fa71af8d451cf7715475186ee21938114a3.png" alt="\hat \Pi^ \dagger \hat \Omega \hat \Pi"/> then act on arbitary state and put it into position basis.</p>
+<p>As an example, find commutation relation with position operator.</p>
+<div class="math">
+<p><img src="_images/math/d22fe2830774faba9ad1acb225e6fcd60d892d18.png" alt="\bra{x}\hat \Pi^\dagger \hat X \hat \Pi \ket{\psi} = \bra{ - x}\hat X \hat \Pi\ket{x} = -x \bra{-x}\hat \Pi \ket{\psi} = -x \braket{x}{\psi}"/></p>
+</div><p>which is <img class="math" src="_images/math/6c745a2bfc4b4318c843b4ee3ce12afa052bc9e3.png" alt="\bra{x}(-\hat X)\ket{\psi}"/>. This proves the following equation.</p>
+<div class="math">
+<p><img src="_images/math/9bf1581cc6e92d6e0e23c6b5ad0750d1bd19fe85.png" alt="\hat \Pi^\dagger \hat X \hat \Pi = -\hat X"/></p>
+</div><p>which can also be interpreted as passive transformation.</p>
+<p>Another example is the commutation relation with (canonical) momentum.</p>
+<div class="math">
+<p><img src="_images/math/824896b4f20505d9a5ecb41b38a3dd1514437d8a.png" alt="\bra{x}\hat \Pi^\dagger \hat P \hat \Pi \ket{\psi} = \bra{-x} \hat P \hat \Pi\ket{\psi} = \int \bra{-x}\hat P \ket{x'}\bra{x'}\hat \Pi\ket{\psi} dx'  ."/></p>
+</div><p>By carefully applying parity on position basis, we have</p>
+<div class="math">
+<p><img src="_images/math/12db05559689b5b46db858ee823c5bcd7719f26a.png" alt="\int \bra{-x}\hat P \ket{x'}\braket{-x'}{\psi} d x' = \int \bra{-x}\hat P \ket{-x'}\braket{x'}{\psi} d x'"/></p>
+</div><p>Because commutation relation tells us</p>
+<div class="math">
+<p><img src="_images/math/354e699e65741cc442e76d6e5c7f5431f58b02dc.png" alt="\bra{x'}[\hat X,\hat P]\ket{x} = \bra{x'}\hat X \hat P\ket{x} - \bra{x'}\hat P \hat X\ket{x} = (x' - x)\bra{x'}\hat P\ket{x} = i\hbar \delta(x'-x)"/></p>
+</div><p>Here comes the keypoint. Recall that</p>
+<div class="math">
+<p><img src="_images/math/a5363bfbc72ae2dcf2eb991b291e66b7b674a86b.png" alt="x\delta'(x) = -\delta"/></p>
+</div><p>we know that</p>
+<div class="math">
+<p><img src="_images/math/8ce4a6b72a506238817e7de80f903746e83ff995.png" alt="(x - x')\bra{x}\hat P\ket{x'} = i\hbar \delta(x'-x)"/></p>
+</div><p>gives us the expression of momentum in position basis,</p>
+<div class="math">
+<p><img src="_images/math/0b68c9af39a955e6fda40dd69bbcdc1b81b630aa.png" alt="\bra{x'}\hat P \ket{x} = -i\hbar \partial_x \delta(x'-x)"/></p>
+</div><p>So to continue our calculation of parity applied to momentum,</p>
+<div class="math">
+<p><img src="_images/math/1901c99c89b275b4f3e9755ef78aa7fff352f93f.png" alt="\int \bra{-x}\hat P \ket{-x'}\braket{x'}{\psi} d x' = \int \bra{x}(-\hat P)\ket{x'}\braket{x'}{\psi}dx'"/></p>
+</div><p>So we can prove that mometum actually invserses when parity is applied to it.</p>
+</li>
+</ol>
 </div>
 </div>
 </div>

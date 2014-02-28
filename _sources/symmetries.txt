@@ -241,3 +241,117 @@ where :math:`w` can be :math:`x` or :math:`t`.
 
 
 
+
+Parity
+-------------------------
+
+
+Logic
+~~~~~~~~~~~~~~
+
+
+The only thing we need is the definition:
+
+.. math::
+   \hat \Pi \ket{\vec x} = \ket{-\vec x}
+
+
+Starting from that, we can derive properties.
+
+1. Hermition? **The way to find out something is Hermition or not is to take the Hermitian conjugate of the inner product sandwiched by the operator.**
+   
+   We know
+
+   .. math::
+      \bra{x}\hat \Pi \ket{x} = \delta(x+x')
+
+   Take the Hermitian conjugate of the whole expression,
+
+   .. math::
+      (\bra{x'}\hat \Pi \ket{x} )^\dagger = \delta(x+x')
+   
+   We know the LHS is :math:`\bra{x}\hat \Pi^\dagger \ket{x'}`. So we have
+
+   .. math::
+      \bra{x}\hat \Pi^\dagger \ket{x'}  =  \bra{x}\hat \Pi \ket{x'}
+
+   Then we get that parity operator is Hermitian.
+
+2. Inversion? Parity operator is Unitary.
+   
+   .. math::
+      \hat \Pi \hat \Pi \ket{\pi} = \hat \Pi \pi \ket{\pi} = \pi^2\ket{\pi}
+   
+   By physics we know that parity twice gets back to the original state. So :math:`\pi^2=1` . Then we can find inverse parity operator. What's important is that it's unitary.
+
+3. Acts on states? From definition, we need to go to position basis.
+   
+   .. math::
+      \bra{x}\hat \Pi\ket{\psi}  = \braket{-x}{\psi} .
+
+   We can also find the results on momentum eigenbasis, which is
+
+   .. math::
+      \bra{x}\hat \Pi \ket{p} = \braket{-x}{p}   .
+
+   We already know mometum eigen state in postion is some kind of plane wave and it's easily proved that :math:`\braket{-x}{p} = \braket{x}{-p}` .
+
+4. Commutators with any observables? Just sandwich :math:`\hat \Pi^ \dagger \hat \Omega \hat \Pi` then act on arbitary state and put it into position basis.
+
+   As an example, find commutation relation with position operator.
+
+   .. math::
+      \bra{x}\hat \Pi^\dagger \hat X \hat \Pi \ket{\psi} = \bra{ - x}\hat X \hat \Pi\ket{x} = -x \bra{-x}\hat \Pi \ket{\psi} = -x \braket{x}{\psi}
+   
+   which is :math:`\bra{x}(-\hat X)\ket{\psi}`. This proves the following equation.
+
+   .. math::
+      \hat \Pi^\dagger \hat X \hat \Pi = -\hat X
+   
+   which can also be interpreted as passive transformation.
+
+   Another example is the commutation relation with (canonical) momentum.
+
+   .. math::
+      \bra{x}\hat \Pi^\dagger \hat P \hat \Pi \ket{\psi} = \bra{-x} \hat P \hat \Pi\ket{\psi} = \int \bra{-x}\hat P \ket{x'}\bra{x'}\hat \Pi\ket{\psi} dx'  .
+
+   By carefully applying parity on position basis, we have
+
+   .. math::
+      \int \bra{-x}\hat P \ket{x'}\braket{-x'}{\psi} d x' = \int \bra{-x}\hat P \ket{-x'}\braket{x'}{\psi} d x' 
+
+   Because commutation relation tells us
+
+   .. math::
+      \bra{x'}[\hat X,\hat P]\ket{x} = \bra{x'}\hat X \hat P\ket{x} - \bra{x'}\hat P \hat X\ket{x} = (x' - x)\bra{x'}\hat P\ket{x} = i\hbar \delta(x'-x)
+
+   Here comes the keypoint. Recall that
+
+   .. math::
+      x\delta'(x) = -\delta
+
+   we know that
+
+   .. math::
+      (x - x')\bra{x}\hat P\ket{x'} = i\hbar \delta(x'-x)
+
+   gives us the expression of momentum in position basis,
+
+   .. math::
+      \bra{x'}\hat P \ket{x} = -i\hbar \partial_x \delta(x'-x)
+
+   So to continue our calculation of parity applied to momentum,
+
+   .. math::
+      \int \bra{-x}\hat P \ket{-x'}\braket{x'}{\psi} d x' = \int \bra{x}(-\hat P)\ket{x'}\braket{x'}{\psi}dx'
+
+   So we can prove that mometum actually invserses when parity is applied to it.
+
+
+
+
+
+
+
+
+
