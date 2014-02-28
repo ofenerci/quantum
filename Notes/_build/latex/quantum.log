@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  26 FEB 2014 00:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 FEB 2014 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,37 +990,36 @@ File: LocalGaugeTransformation.png Graphic file (type png)
  <use LocalGaugeTransformation.png>
 Package pdftex.def Info: LocalGaugeTransformation.png used on input line 620.
 (pdftex.def)             Requested size: 469.755pt x 259.45868pt.
- [12 <./LocalGaugeTransformation.png>] <cc_byncsa.png, id=163, 141.328pt x 25.6
-96pt>
+ [12 <./LocalGaugeTransformation.png>] [13]
+<cc_byncsa.png, id=173, 141.328pt x 25.696pt>
+File: cc_byncsa.png Graphic file (type png)
+ <use cc_byncsa.png>
+Package pdftex.def Info: cc_byncsa.png used on input line 743.
+(pdftex.def)             Requested size: 141.32764pt x 25.69592pt.
 File: cc_byncsa.png Graphic file (type png)
 
 <use cc_byncsa.png>
-Package pdftex.def Info: cc_byncsa.png used on input line 651.
-(pdftex.def)             Requested size: 141.32764pt x 25.69592pt.
-File: cc_byncsa.png Graphic file (type png)
- <use cc_byncsa.png>
-Package pdftex.def Info: cc_byncsa.png used on input line 651.
+Package pdftex.def Info: cc_byncsa.png used on input line 743.
 (pdftex.def)             Requested size: 141.32764pt x 25.69592pt.
  (./quantum.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 665.
- [13 <./cc_byncsa.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 665.
-
-(./quantum.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 665.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 665.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 757.
+ [14 <./cc_byncsa.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 757.
+ (./quantum.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 757.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 757.
 Package rerunfilecheck Info: File `quantum.out' has not changed.
 (rerunfilecheck)             Checksum: A3804F6A90C3CB5BB36A9527F7E9FC4F;284.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 665.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 757.
  ) 
 Here is how much of TeX's memory you used:
- 9296 strings out of 493315
- 129545 string characters out of 6137904
- 229642 words of memory out of 5000000
- 12427 multiletter control sequences out of 15000+600000
+ 9305 strings out of 493315
+ 129650 string characters out of 6137904
+ 231724 words of memory out of 5000000
+ 12429 multiletter control sequences out of 15000+600000
  55745 words of font info for 64 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 36i,17n,45p,426b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,17n,45p,426b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local
@@ -1036,10 +1035,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2013/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb>
-Output written on quantum.pdf (17 pages, 243098 bytes).
+Output written on quantum.pdf (18 pages, 245966 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 68 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
