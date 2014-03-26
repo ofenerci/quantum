@@ -2,20 +2,22 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}Table of Contents}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Vocabulary}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Approximation Methods}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Variational Method}{5}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}Questions}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Wedge Product, Cross Prodcut \& Commutation relation}{5}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Approximation Methods}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Variational Method}{5}{subsection.2.3.1}
 \contentsline {subsubsection}{Trial functions}{5}{subsubsection*.3}
-\contentsline {subsubsection}{Procedure}{6}{subsubsection*.4}
-\contentsline {subsubsection}{Why Not General Viriational Method}{6}{subsubsection*.5}
-\contentsline {subsection}{\numberline {2.2.2}Variational Method and Virial Theorem}{6}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}WKB}{7}{subsection.2.2.3}
-\contentsline {subsubsection}{How does it work}{7}{subsubsection*.6}
-\contentsline {section}{\numberline {2.3}Symmetries in QM}{7}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Time and Space Translation}{7}{subsection.2.3.1}
-\contentsline {subsubsection}{Time Translation Symmetry}{8}{subsubsection*.7}
-\contentsline {subsubsection}{Space Translation Symmetry}{10}{subsubsection*.8}
-\contentsline {subsection}{\numberline {2.3.2}Gauge Symmetry}{11}{subsection.2.3.2}
-\contentsline {subsubsection}{Global Gauge Transformation}{11}{subsubsection*.9}
-\contentsline {subsubsection}{Local Gauge Transformation}{12}{subsubsection*.10}
-\contentsline {subsection}{\numberline {2.3.3}Parity}{13}{subsection.2.3.3}
-\contentsline {subsubsection}{Logic}{13}{subsubsection*.11}
+\contentsline {subsubsection}{Procedure}{7}{subsubsection*.4}
+\contentsline {subsubsection}{Why Not General Viriational Method}{7}{subsubsection*.5}
+\contentsline {subsection}{\numberline {2.3.2}Variational Method and Virial Theorem}{7}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}WKB}{8}{subsection.2.3.3}
+\contentsline {subsubsection}{How does it work}{8}{subsubsection*.6}
+\contentsline {section}{\numberline {2.4}Symmetries in QM}{8}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Time and Space Translation}{8}{subsection.2.4.1}
+\contentsline {subsubsection}{Time Translation Symmetry}{9}{subsubsection*.7}
+\contentsline {subsubsection}{Space Translation Symmetry}{11}{subsubsection*.8}
+\contentsline {subsection}{\numberline {2.4.2}Gauge Symmetry}{12}{subsection.2.4.2}
+\contentsline {subsubsection}{Global Gauge Transformation}{12}{subsubsection*.9}
+\contentsline {subsubsection}{Local Gauge Transformation}{13}{subsubsection*.10}
+\contentsline {subsection}{\numberline {2.4.3}Parity}{14}{subsection.2.4.3}
+\contentsline {subsubsection}{Logic}{14}{subsubsection*.11}

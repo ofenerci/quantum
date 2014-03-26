@@ -20,9 +20,10 @@ Table of Contents
     :maxdepth: 3
 
     vocabulary.rst
+    questions.rst
     approx.rst
     symmetries.rst
-
+   
 ------
 
 ------
