@@ -245,6 +245,26 @@ html_theme = 'bootstrap'
 # documentation.
 #html_theme_options = {}
 
+html_theme_options = {
+    # Choose Bootstrap version.
+    # Values: "3" (default) or "2" (in quotes)
+    'bootstrap_version': "3",
+
+    # Location of link to source.
+    # Options are "nav" (default), "footer" or anything else to exclude.
+    # 'source_link_position': "footer",
+
+    # Bootswatch (http://bootswatch.com/) theme.
+    #
+    # Options are nothing with "" (default) or the name of a valid theme
+    # such as "amelia" or "cosmo".
+    'bootswatch_theme': "flatly",
+
+    # Fix navigation bar to top of page?
+    # Values: "true" (default) or "false"
+    # 'navbar_fixed_top': "false",
+}
+
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
