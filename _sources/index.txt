@@ -8,7 +8,7 @@ Some notes for quantum
 Introduction
 ============
 
-Some notes continued from the full theoretical physics notes are `here <http://cosmologytaskforce.github.io/PhysicsResearchSurvivalManual/>`_.
+Some notes as part of the full theoretical physics notes which are hosted `here <http://cosmologytaskforce.github.io/PhysicsResearchSurvivalManual/>`_.
 
 
 
@@ -20,9 +20,10 @@ Table of Contents
     :maxdepth: 3
 
     vocabulary.rst
+    questions.rst
     approx.rst
     symmetries.rst
-
+   
 ------
 
 ------
