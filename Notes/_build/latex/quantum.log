@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  26 MAR 2014 12:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  26 MAR 2014 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,60 +973,60 @@ Package pdftex.def Info: commutationCrossWedge.png used on input line 306.
 File: TimeTranslation.png Graphic file (type png)
 
 <use TimeTranslation.png>
-Package pdftex.def Info: TimeTranslation.png used on input line 486.
+Package pdftex.def Info: TimeTranslation.png used on input line 488.
 (pdftex.def)             Requested size: 612.28601pt x 468.75009pt.
 File: TimeTranslation.png Graphic file (type png)
  <use TimeTranslation.png>
-Package pdftex.def Info: TimeTranslation.png used on input line 486.
+Package pdftex.def Info: TimeTranslation.png used on input line 488.
 (pdftex.def)             Requested size: 469.755pt x 359.63065pt.
  [9 <./TimeTranslation.png>] <SpaceTranslation.png, id=149, 593.21625pt x 391.4
 625pt>
 File: SpaceTranslation.png Graphic file (type png)
 
 <use SpaceTranslation.png>
-Package pdftex.def Info: SpaceTranslation.png used on input line 539.
+Package pdftex.def Info: SpaceTranslation.png used on input line 542.
 (pdftex.def)             Requested size: 593.2148pt x 391.46153pt.
 File: SpaceTranslation.png Graphic file (type png)
  <use SpaceTranslation.png>
-Package pdftex.def Info: SpaceTranslation.png used on input line 539.
+Package pdftex.def Info: SpaceTranslation.png used on input line 542.
 (pdftex.def)             Requested size: 469.755pt x 310.00461pt.
  [10] [11 <./SpaceTranslation.png>] [12] <LocalGaugeTransformation.png, id=168,
  863.225pt x 476.78125pt>
 File: LocalGaugeTransformation.png Graphic file (type png)
 
 <use LocalGaugeTransformation.png>
-Package pdftex.def Info: LocalGaugeTransformation.png used on input line 632.
+Package pdftex.def Info: LocalGaugeTransformation.png used on input line 635.
 (pdftex.def)             Requested size: 863.2229pt x 476.78008pt.
 File: LocalGaugeTransformation.png Graphic file (type png)
  <use LocalGaugeTransformation.png>
-Package pdftex.def Info: LocalGaugeTransformation.png used on input line 632.
+Package pdftex.def Info: LocalGaugeTransformation.png used on input line 635.
 (pdftex.def)             Requested size: 469.755pt x 259.45868pt.
  [13 <./LocalGaugeTransformation.png>] [14]
 <cc_byncsa.png, id=186, 141.328pt x 25.696pt>
 File: cc_byncsa.png Graphic file (type png)
  <use cc_byncsa.png>
-Package pdftex.def Info: cc_byncsa.png used on input line 755.
+Package pdftex.def Info: cc_byncsa.png used on input line 758.
 (pdftex.def)             Requested size: 141.32764pt x 25.69592pt.
 File: cc_byncsa.png Graphic file (type png)
 
 <use cc_byncsa.png>
-Package pdftex.def Info: cc_byncsa.png used on input line 755.
+Package pdftex.def Info: cc_byncsa.png used on input line 758.
 (pdftex.def)             Requested size: 141.32764pt x 25.69592pt.
  (./quantum.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 769.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 772.
  [15 <./cc_byncsa.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 769.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 772.
  (./quantum.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 769.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 769.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 772.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 772.
 Package rerunfilecheck Info: File `quantum.out' has not changed.
 (rerunfilecheck)             Checksum: A07F47DC27FCA0BBA76AE6848263F1FD;339.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 769.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 772.
  ) 
 Here is how much of TeX's memory you used:
  9318 strings out of 493315
  129948 string characters out of 6137904
- 231878 words of memory out of 5000000
+ 230878 words of memory out of 5000000
  12437 multiletter control sequences out of 15000+600000
  55745 words of font info for 64 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
@@ -1046,7 +1046,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2013/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb>
-Output written on quantum.pdf (19 pages, 275209 bytes).
+Output written on quantum.pdf (19 pages, 272386 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  206 compressed objects within 3 object streams

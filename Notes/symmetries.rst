@@ -26,8 +26,9 @@ Time Translation Symmetry
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: _static/images/TimeTranslation.png
+.. figure:: _static/images/TimeTranslation.png
    :alt: Time Translation
+   :align: center
 
 `Time translation Gliffy Source <_static/images/TimeTranslation.gliffy>`_
 
@@ -99,6 +100,7 @@ Space Translation Symmetry
 
 .. image:: _static/images/SpaceTranslation.png
    :alt: Space translation
+   :align: center
 
 `Space Translation Gliffy Source <_static/images/SpaceTranslation.gliffy>`_
 
@@ -202,7 +204,7 @@ All quantum states are invariant under such transformation. This is not a nonsen
 
 The invariant thing is the probability density which is obvious.
 
-.. note::
+.. hint::
    This is global because the phase factor doesn't depend on position and time.
 
 

@@ -26,6 +26,15 @@ border-radius: 4px !important;
 background: none !important;
 }
 
+.alert-info {
+color: black !important;
+}
+
+.alert {
+color: black !important;
+}
+
+
 div.important {
 border: solid 2px #4183c4 !important;
 border-radius: 4px !important;
@@ -78,4 +87,16 @@ color: #4B648C;
 background-color: #EDFFF0;
 white-space: nowrap;
 border-radius: 4px;
+}
+
+
+
+/* For disqus thread*/
+
+#disqus_thread {
+max-width:1170px;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
 }
