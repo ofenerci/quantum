@@ -59,7 +59,7 @@ text-align:center;
 
 
 
-p.caption {
+.figure>p.caption {
 color: grey;
 border-left: 5px solid grey;
 border-right: 5px solid grey;
