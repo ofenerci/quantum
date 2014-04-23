@@ -7,7 +7,7 @@ $\newcommand{\bra}[1]{\left\langle #1\right|}
 Three pictures in QM.
 
 | Aspects        | Schrödinger Picture           | Heisenberg Picture  | Dirac Picture   |
-| ------------- |:-------------:|:-----:|:-----------:|
+|:-------------:|:-------------:|:-----:|:-----------:|
 | Hamiltonian   | $$\hat H$$  |  $$\hat H_H$$  | $$\hat H_0+\hat W(T)$$ |
 | State      |  \begin{equation*}\ket{\psi}_S = \ket{\psi(t)}\end{equation*}  |  \begin{align*}\ket{\psi}_H &=\hat U(t,t_0)^{-1}\ket{\psi}_S\\&= \ket{\psi(t_0)}  \end{align*}  |  \begin{align*} \ket{\psi}_I & = \hat U_0^{-1} \ket{\psi}_S  \\  &= e^{i\hat H_0 (t-t_0)/\hbar} \ket{\psi}_S \end{align*}  |
 | Operators   | $$\hat \Omega_S = \hat \Omega(t)$$  |  \begin{align*} \hat \Omega_H &= \hat \Omega(t) \\ & = \hat U^{-1} \hat\Omega_S \hat U \end{align*}  | \begin{align*} \hat \Omega_I &= \hat U_0^{-1}\Omega_S \hat U_0   \end{align*} |
