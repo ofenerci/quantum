@@ -18,3 +18,5 @@ Three pictures in QM.
 | Observables      |  |  |  |
 
 Notice that in Dirac picture, $\hat W_I = \hat U_0 ^{-1}\hat W \hat U_0 $, $\ket{\psi(t)}_I = \hat U_I \ket{\psi(0)}_I$.
+
+
