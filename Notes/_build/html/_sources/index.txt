@@ -23,7 +23,9 @@ Table of Contents
     questions.rst
     approx.rst
     symmetries.rst
-   
+    tensors.rst
+    perturbationTheory.rst
+
 ------
 
 ------
@@ -40,8 +42,3 @@ Table of Contents
 This open source project is hosted on GitHub: `quantum <https://github.com/emptymalei/quantum>`_ .
 
 `Latest PDF here <https://raw.github.com/emptymalei/quantum/master/Notes/_build/latex/quantum.pdf>`_.
-
-
-
-
-

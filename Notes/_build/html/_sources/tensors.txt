@@ -1,0 +1,17 @@
+Tensors and Groups
+====================
+
+
+Tensors are defined as
+
+.. math::
+   \left[\hat J_z, \hat T_k^1 \right] &= q\hbar \hat T_k^q \\
+   \left[ \hat J_{\pm}, \hat T_k^q \right] & = \sqrt{(k\mp q)(k\pm q + 1)}\hbar
+
+
+
+
+
+
+
+.
